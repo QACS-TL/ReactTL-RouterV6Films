@@ -75,9 +75,9 @@
     {
       "id": 1,
       "title": "The Lord of the Rings",
-      "synopsis": "Wonkymotion's'irst team effort. Really fun. Fun, but only in the sense that it really wasn't.",
+      "synopsis": "Wonkymotions first team effort. Really fun. Fun, but only in the sense that it really wasn't.",
       "review": "What were they thinking of?",
-      "image": "../images/promotions/The Lord of the Rings.jpg",
+      "image": "./The Lord of the Rings.jpg",
       "url": "https://www.youtube.com/watch?v=Zkhd6LMmcdQ"
     },
     {
@@ -85,7 +85,7 @@
       "title": "The Wonkymation Christmas Spectacular",
       "synopsis": "The Ultimate Christmas Spectacular",
       "review": "Incredible. You won't believe your eyes",
-      "image": "../images/promotions/The Wonkymation Christmas Spectacular.jpg",
+      "image": "./The Wonkymation Christmas Spectacular.jpg",
       "url": "https://www.youtube.com/watch?v=16jreajor74&t=1s"
     },
     {        
@@ -93,7 +93,7 @@
       "title": "What's he Building in There - 2 (The Director's Cut)",
       "synopsis": "The second film in the franchise delivered in the critically acclaimed 'Director's Cut' . Critically acclaimed but only because the critic was being held at gun point by the producer and even then it was touch and go as to the outcome.",
       "review": "What just happened!?",
-      "image": "../images/promotions/Whats he Building in There - 2 (The Directors Cut).jpg",
+      "image": "./Whats he Building in There - 2 (The Directors Cut).jpg",
       "url": "https://www.youtube.com/watch?v=Xi5YuyHZylg&t=1s"
     }
   ]

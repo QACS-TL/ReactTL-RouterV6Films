@@ -8,9 +8,11 @@ export default function Promotions() {
   function importAll(r) {
     let images = {};
     r.keys().forEach((item, index) => { images[item.replace('../images/promotions', '')] = r(item); });
+    console.log(images)
     return images
   }
   
+  console.log('BOO!')
   const images = importAll(require.context('../images/promotions', false, /\.(jpe?g)$/));
  
   const getFilms = useCallback (
@@ -27,7 +29,7 @@ export default function Promotions() {
     if (response.status === 200) {
       const returnedFilms = await response.json();
       console.log({returnedFilms})
-      setFilms(returnedFilms)
+            setFilms(returnedFilms)
     }
   }, [],
   );
@@ -45,8 +47,7 @@ export default function Promotions() {
       <div className="promotions">
         {films.map(item => (
           <div key={item.title}>
-            console.log({item.image})
-            <img src={require(item.image)} alt={item.title} />
+            <a href={item.url}><img src={(images[item.image])} alt={item.title} width="200" /></a>
             <h4>{item.title}</h4>
             <p>{item.synopsis}</p>
             <p>{item.review}</p>
