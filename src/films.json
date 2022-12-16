@@ -1,79 +1,89 @@
 {
   "films": [
     {
-      "id": 1,
+      "id": "1",
       "title": "A Day in the Life of Thomas Artimus OJones",
       "synopsis": "In a homage to one of the twentieth and twenty-first century's greatest singers Tom Jones takes on the role of Thomas Artimus O'Jones and portrays a typical day in the young singer's life. Critics have said it is perhaps one of the most moving pieces of musical theatre ever portrayed on celluloid. Unfortunately for them it was filmed digitally",
       "review": "Nice dancing",
+      "image": "./A Day in the Life of Thomas Artimus OJones.jpg",
       "url": "https://www.youtube.com/watch?v=fAvH3D3IYXM"
     },
     {
-      "id": 2,
+      "id":"2",
       "title": "Captain Flask and the Lunchbox Kid",
       "synopsis": "Wonkymotion have done it again! Another classic from the stop motion studio",
       "review": "Daily Splurge: 'Could this be the best film ever made?'\nDaily Spiggot: 'No!'\nThe Bugle: 'BRILLIANT!!!!'\nThe Recorder: 'OUTSTANDINGLY OUTSTANDING'\nThe Rumourmonger: 'Citizen Kane eat your heart out'\nThe Jones Journal: 'Jolly good'\nNeds News: 'Bizarre'\nLizzie''s Log: 'Looks lovely'\nThe Brief: 'At least it''s brief'\nCandid Catalogue: 'Creepy'\nThe Tribune: 'Crawly'\nNew Scientist: 'Tragic'",
+      "image": "./Captain Flask and the Lunchbox Kid.jpg",
       "url": "https://www.youtube.com/watch?v=rrG-3NoJhns"
     },
     {        
-      "id": 3,
+      "id": "3",
       "title": "Hair Today - Everyday Life with the Daleks",
       "synopsis": "Wonkymotion's first attempt at breaking into the lucrative Doctor Who franchise. we're sitting back waiting for the money to roll in...",
       "review": "Awful, the entire thing ought to be exterminated",
+      "image": "./Hair Today - Everyday Life with the Daleks.jpg",
       "url": "https://www.youtube.com/watch?v=kFZiKoImFaw"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Hairy Spotter and the Potion of Doom",
       "synopsis": "Wonkymotion have gone with the prevailing zeitgeist and are Proudly presenting their take on a wizard of a movie. Any similarities between factual or fictional people is purely coincidental.",
       "review": "Really?!",
+      "image": "./Hairy Spotter and the Potion of Doom.jpg",
       "url": "https://www.youtube.com/watch?v=-_vqx2BsSj0&t=1s"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Jurassic Park",
       "synopsis": "A revamp of the cinema classic. Wonkymotion style!",
-      "review": "Revamp? Reverse Ramp more like",
+      "review": "Revamp? Reverse Ramp more like. The film was terrible from start to finish. AVOID!",
+      "image": "./Jurassic Park.jpg",
       "url": "https://www.youtube.com/watch?v=bKOr7VfyGQQ&t=1s"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Mission Impossible",
       "synopsis": "A Homage to the 60's television programme",
       "review": "A Horrible Mess from start to finish",
+      "image": "./Mission Impossible.jpg",
       "url": "https://www.youtube.com/watch?v=baNhvQ26_I8&t=5s"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Retouching the Past",
       "synopsis": "More of a documentary that reveals the exciting new colourisation techniques created in the Wonkymotion laboratories that brings the Past to life in new and interesting ways.",
       "review": "Strong drink was the only thing that got me through this...",
+      "image": "./Retouching the Past.jpg",
       "url": "https://www.youtube.com/watch?v=f7PSwnekxS4&t=2s"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Star Trek - The Wonky Generation",
       "synopsis": "Jim, Splock and the rest of the crew are searching for the enge of the universe",
       "review": "Wonkymotion's first full scale movie making use of many new technical features including, for the first time, Green Screen! The anticipated critical acclaim so desired by all in the production team never actually came to anything. Instead the film was panned.  'Utter dross', 'Painful to watch', 'Where's my supper' and the traditional Eastend cry of 'Leeeve it aaoort' were typical quotes of the time. Hurt and dejected, the crew turned to drink and wanton debauchery. It was a dark time alleviated only by the consumption of large amounts of chocolate.",
+      "image": "./Star Trek - The Wonky Generation.jpg",
       "url": "https://www.youtube.com/watch?v=WKTGQSsIYzo&t=1s"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Thunderbirds",
       "synopsis": "A breakthrough piece heralded as a masterpiece by the critics. Longer, more accomplished. Wonkymotion are now telling a fuller story. The first film to be followed up with an outake reel (though there is only one clip). Note, the term 'masterpiece' is used in the loosest possible way. You may say masterpiece, but others would say crap.",
       "review": "Thunderbirds? No, Blunderbirds. They are beneath contempt",
+      "image": "./Thunderbirds.jpg",
       "url": "https://www.youtube.com/watch?v=4q6z1FMS_mM"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Where Eagles Dare",
       "synopsis": "An abridged but faithful version of the original using many of the original cast.",
       "review": "A triumph but only for those who have no experience of the real world!",
+      "image": "./Where Eagles Dare.jpg",
       "url": "https://www.youtube.com/watch?v=ENrgZ4KAnNw"
     }
   ],
   "promotions": [
     {
-      "id": 1,
+      "id": "1",
       "title": "The Lord of the Rings",
       "synopsis": "Wonkymotions first team effort. Really fun. Fun, but only in the sense that it really wasn't.",
       "review": "What were they thinking of?",
@@ -81,7 +91,7 @@
       "url": "https://www.youtube.com/watch?v=Zkhd6LMmcdQ"
     },
     {
-      "id": 2,
+      "id":"2",
       "title": "The Wonkymation Christmas Spectacular",
       "synopsis": "The Ultimate Christmas Spectacular",
       "review": "Incredible. You won't believe your eyes",
@@ -89,7 +99,7 @@
       "url": "https://www.youtube.com/watch?v=16jreajor74&t=1s"
     },
     {        
-      "id": 3,
+      "id": "3",
       "title": "What's he Building in There - 2 (The Director's Cut)",
       "synopsis": "The second film in the franchise delivered in the critically acclaimed 'Director's Cut' . Critically acclaimed but only because the critic was being held at gun point by the producer and even then it was touch and go as to the outcome.",
       "review": "What just happened!?",

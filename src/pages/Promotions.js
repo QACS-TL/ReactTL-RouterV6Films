@@ -12,7 +12,6 @@ export default function Promotions() {
     return images
   }
   
-  console.log('BOO!')
   const images = importAll(require.context('../images/promotions', false, /\.(jpe?g)$/));
  
   const getFilms = useCallback (

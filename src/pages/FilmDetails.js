@@ -24,7 +24,7 @@ export default function FilmDetails() {
       const returnedFilms = await response.json();
       console.log(returnedFilms)
       console.log(query)
-      const film =  returnedFilms.find(film => film.title === query);
+      const film =  returnedFilms.find(film => film.id === query);
       console.log(film)
       //returnedFilms.length ? setFilms(film) :  setFilms([film]);
       setFilms(film)
@@ -35,10 +35,11 @@ export default function FilmDetails() {
   useEffect(() => {
     //Replaces to CDM and CDU
     console.log(id)
-    console.log(id.substring(0,id.indexOf(".")));
+    //console.log(id.substring(0,id.indexOf(".")));
     //const query = id.toString() === '0'? `` :  `/${id.substring(0,id.indexOf("."))}`;
-    const query = id.substring(0,id.indexOf("."));
-    //console.log(query)
+    //const query = id.substring(0,id.indexOf("."));
+    const query = id;
+    console.log(query)
     setTimeout(() => {
       getFilms(query);
     }, 200);
@@ -47,9 +48,9 @@ export default function FilmDetails() {
   return (
     <div className="content">
       <div className="product">
-        <div className="image">
+        {/* <div className="image">
           <img src={require('../images/' + id)} alt={id.substring(0,id.indexOf("."))} />
-        </div>
+        </div> */}
         <div className="details">
           <h2><a href={films.url}>{films.title}</a></h2>
           <h3>Synopsis</h3>
