@@ -29,7 +29,7 @@ export default function Films() {
     if (response.status === 200) {
       const returnedFilms = await response.json();
       console.log({returnedFilms})
-            setAllFilms(returnedFilms)
+      setAllFilms(returnedFilms)
     }
   }, [],
   );
@@ -47,12 +47,10 @@ export default function Films() {
       <div className="films">
       {allfilms.map(item => (
           <div key={item.title}>
-            <a href={item.url}><img src={(images[item.image])} alt={item.title} width="200" /></a>
+            <img src={(images[item.image])} alt={item.title} width="200" />
             <Link to={`/films/id/${[item.id]}`}>
-            <h4>{item.title}</h4>
+              <h4>{item.title.length > 22 ? item.title.substring(0,22) + "...": item.title}</h4>
             </Link>
-            <p>{item.synopsis}</p>
-            <p>{item.review}</p>
           </div>
         ))}
         {/* {Object.entries(images).map( ([key, value]) => (

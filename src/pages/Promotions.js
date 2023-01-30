@@ -42,12 +42,13 @@ export default function Promotions() {
 
   return (
     <div>
-      <h3>Latest Promotions</h3>
+      <h1>Latest Promotions</h1>
       <div className="promotions">
         {films.map(item => (
           <div key={item.title}>
-            <a href={item.url}><img src={(images[item.image])} alt={item.title} width="200" /></a>
-            <h4>{item.title}</h4>
+            <img src={(images[item.image])} alt={item.title} width="200" />
+            <p />
+            <h4><a href={item.url}>{item.title}</a></h4>
             <p>{item.synopsis}</p>
             <p>{item.review}</p>
           </div>

@@ -25,6 +25,7 @@ function App() {
           <Route path="/about/*" element={<About />} />
           <Route path="/films/id/:id" element={<FilmDetails />} />
           <Route path="/films" element={<Films />} />
+          <Route path="//films/id/:id/*" element={<FilmDetails />} />
           <Route path="/most_popular" element={(
             <div>
               <h2>

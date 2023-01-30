@@ -1,13 +1,22 @@
 import {useState, useEffect, useCallback} from 'react';
-import { Route, Routes, useParams } from "react-router-dom";
+import { Route, Routes, useParams, useRouteMatch } from "react-router-dom";
 import Promotions from './Promotions';
 
 const filmDetails = `http://localhost:4000/films`;
 
 export default function FilmDetails() {
   const [films, setFilms] = useState([]);
-
   const { id } = useParams()
+
+  function importAll(r) {
+    let images = {};
+    r.keys().forEach((item, index) => { images[item.replace('../images', '')] = r(item); });
+    console.log(images)
+    return images
+  }
+  
+  const images = importAll(require.context('../images', false, /\.(jpe?g)$/));
+
 
   const getFilms = useCallback (
     async (query) => {
@@ -52,13 +61,17 @@ export default function FilmDetails() {
           <img src={require('../images/' + id)} alt={id.substring(0,id.indexOf("."))} />
         </div> */}
         <div className="details">
-          <h2><a href={films.url}>{films.title}</a></h2>
-          <h3>Synopsis</h3>
+          <img src={(images[films.image])} alt={films.title} width="400" />
+          <h1><a href={films.url}>{films.title}</a></h1>
+          <h2>Synopsis</h2>
           <p>{films.synopsis}</p>
-          <h3>Review</h3>
+          <h2>Review</h2>
           <p>{films.review}</p>
+          <br />
+          <br />
         </div>
       </div>
+
       <Routes>
         <Route path="/promotions" element={<Promotions />} />
       </Routes>
