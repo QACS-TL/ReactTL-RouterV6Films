@@ -1,0 +1,13 @@
+RouterV6Films
+
+
+In order to launch the app you need to open a terminal, navigate to the src folder and run:
+
+npx json-server --watch films.json -p 4000 --id id
+
+Depending on your installation the "npx" at the start may not be needed.
+
+
+Once done you can launch the app by:
+
+npm start
